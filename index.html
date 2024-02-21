@@ -1,11 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bus Tickets</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/d826755038.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
+
+<header>
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li>
+                <a>About</a>
+                
+              </li>
+              <li><a>Destination</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">P-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-green-500">Bus<i class="fa-solid fa-bus"></i></a>
+        </div>
+      </div>
+</header>
+
+<main>
+  <!--section 1 start-->
+<section class="ml-[190px]">
+  <div class="hero w-[1180px] h-[550px]" style="background-image: url(/images/banner.png);">
+    <div class="hero-overlay"></div>
+    <div class="hero-content text-center text-neutral-content">
+      <div class="max-w-md">
+        <h1 class="mb-5 text-5xl font-bold">End-To-End-Travel with
+          <br>
+          <span style="color: green;">P Paribahan</span>
+        </h1>
+        <p class="mb-5">Yes,you can run unit tests and view the results directly with the app.The integrated testing features allow for a streamlined.</p>
+        <button class="btn bg-green-500">Buy Tickets</button>
+      </div>
+    </div>
+  </div>
+</section>
+    <!--section 1 end-->
+    <!--section 2 start-->
+    <section>
+  <div class="text-center mt-5 text-3xl mb-5">Best offer for you</div>
+
+  <div class="flex gap-5 justify-center">
+<div class="flex gap-5 bg-yellow-500 rounded-2xl">
+  <div class="px-5 py-5">
+    <h2 class="font-extrabold text-center">15% OFF</h2>
+    <p class="font-medium">on your next purchase</p>
+    <p class="text-center">use by January 2024</p>
+  </div>
+  <div class="px-5 py-5">
+    <h1 class="font-extrabold text-center">NEW15</h1>
+    <p>Coupon Code</p>
+  </div>
+</div>
+
+<div class="flex gap-5 bg-pink-400 rounded-2xl">
+  <div class="px-5 py-5">
+    <h2 class="font-extrabold text-center">20% OFF</h2>
+    <p class="font-medium">on your next purchase</p>
+    <p class="text-center">use by January 2024</p>
+  </div>
+  <div class="px-5 py-5">
+    <h1 class="font-extrabold text-center">Couple 20</h1>
+    <p>Coupon Code</p>
+  </div>
+</div>
+</div>
+<div class="text-center mt-16">
+  <button class="btn bg-green-500">See All offers</button></div>
+
+</section>
+<!--section 2 end-->
+<!--section 3 start-->
+<section>
+<div class="mt-16">
+  <h1 class="text-3xl font-extrabold text-center">P.H Paribahan</h1>
+  <p class="text-xl text-center mt-5">Yes,you can run unit tests and view the results directly with the app.The integrated <br> testing features allow for a streamlined.</p>
+</div>
+</section>
+<!--section 3 end-->
+<!--section 4 start-->
+<section class="mt-10 mb-24">
+<div class="flex justify-between">
+<!--1st-->
+<div class="flex">
+<div class="flex">
+<img src="images/bus-logo.png" alt="">
+<h1>Greenline Paribahan <br>
+Coach-009-WEB ! AC_Business</h1>
+</div>
+<div>
+  <button class="btn bg-green-500">8 Seat left</button>
+</div>
+</div>
+<!--2nd-->
+<div>
+<img src="images/fare.png" alt="">
+<h1>550 Taka</h1>
+<p>Per Seat</p>
+</div>
+
+
+</div>
+
+
+</section>
+<!--section 4 end-->
+</main>
+
+<footer>
+
+
+</footer>
     
 </body>
 </html>
